@@ -1,0 +1,20 @@
+$secondaryColor: #2A324B;
+$linkColor: #58699D;
+$white: #ffffff;
+$black: #000000;
+$font: "Montserrat", serif;
+$BGColor: #E1E5EE;
+$font: "Montserrat", serif;
+
+main{
+    background-color: $white;
+    h2{
+        color: $secondaryColor;
+    }
+    article{
+        padding: 4rem;
+        a{
+            color: $linkColor;
+        }
+    }
+}

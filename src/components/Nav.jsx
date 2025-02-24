@@ -1,3 +1,4 @@
+import "../assets/styles/nav.scss"
 import { Link } from "react-router";
 import {resources} from '../assets/ressurser'
 

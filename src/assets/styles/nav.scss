@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+$secondaryColor: #2A324B;
+$linkColor: #58699D;
+$white: #ffffff;
+$black: #000000;
+$font: "Montserrat", serif;
+
+#tabs{
+    overflow: hidden;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0px;
+    padding: 0;
+    font-family: $font;
+    gap: 1rem;
+
+    li{
+        display: flex;
+    }
+    a{
+        border: none;
+        background-color: $secondaryColor;
+        font-family: $font;
+        font-weight: bold;
+        color: $white;
+    }
+    .active{
+            background-color: $white;
+            color: $black;
+        }
+    
+}
+
+//Mobil
+@media only screen and (max-width: 482px){
+    #tabs{
+        flex-direction: column;
+        gap: 0.5rem;
+        flex-grow: 2;
+    }
+    a{
+        padding: 1rem 2rem;
+        flex-grow: 2;
+    }
+    nav{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+//Desktop
+@media only screen and (min-width: 483px){
+    #tabs{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    a:hover{
+            background-color: $linkColor;
+        }
+    a{
+        padding: 1rem 4rem;
+        margin: 1rem 0 0 0;
+        cursor: pointer;
+    }
+}

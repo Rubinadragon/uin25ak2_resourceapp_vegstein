@@ -1,0 +1,12 @@
+$BGColor: #E1E5EE;
+$font: "Montserrat", serif;
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    background-color: $BGColor;
+    font-family: $font;
+    padding: 10%;
+}
