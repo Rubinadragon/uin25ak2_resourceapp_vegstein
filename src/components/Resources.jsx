@@ -1,9 +1,9 @@
-import PageTitle from "./PageTitle";
+import {resources} from '../assets/ressurser'
 
 export default function Resources(){
     return(
         <article id="article">
-            <PageTitle/>
+            {/*resources.map(resource)*/}Test
         </article>
     )
 }
