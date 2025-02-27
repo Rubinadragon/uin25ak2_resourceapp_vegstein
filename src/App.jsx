@@ -1,19 +1,19 @@
 import { useState } from 'react'
 import './App.css'
 import Layout from './components/Layout'
-import { Route, Routes } from 'react-router'
+import { Route, Routes, useParams } from 'react-router'
 import {resources} from './assets/ressurser'
-import Home from './components/Home'
-import Resources from './components/Resources'
+import Resources from './components/resources'
+import ResourcePage from './components/ResourcePage'
 
 function App() {
-  const [count, setCount] = useState(0)
+  //const [resources, setResources] = useState()
+  //const {slug} = useParams
 
   return (
     <Layout>
       <Routes>
-        <Route path="/" element={<Home resources={resources}/>}/>
-        <Route path="/Resources" element={<Resources /*category={category}*//>}/>
+        <Route path="/:slug" element={<ResourcePage resources={resources} category={resources.category} title={resources.title} url={resources.url}/>}/>
       </Routes>
     </Layout>
   )

@@ -8,11 +8,12 @@ $font: "Montserrat", serif;
 
 main{
     background-color: $white;
+    padding: 4rem
     h2{
         color: $secondaryColor;
     }
     article{
-        padding: 4rem;
+        padding: 0 4rem 1rem;
         a{
             color: $linkColor;
         }

@@ -1,10 +1,15 @@
-//import "../assets/styles/resourcePage.scss"
+import "../assets/styles/resourcePage.scss"
 
-export default function ResourcePage(){
+import PageTitle from "./PageTitle";
+import Resources from "./resources";
+
+
+export default function ResourcePage({resources}){
+    
     return(
         <main>
             <PageTitle/>
-            <Resources/>
+            <Resources resources={resources} category={resources.category} title={resources.title} url={resources.url}/>
         </main>
     )
 }
