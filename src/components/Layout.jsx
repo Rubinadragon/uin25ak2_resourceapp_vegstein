@@ -7,9 +7,9 @@ export default function Layout({children}){
             <header>
                 <Nav/>
             </header>
-            {children}
+            <main>
+                {children}
+            </main>
         </>
-    
-    //<script src="script.js"></script>
     )
 }

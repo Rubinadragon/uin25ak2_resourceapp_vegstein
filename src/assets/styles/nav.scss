@@ -54,12 +54,16 @@ $font: "Montserrat", serif;
     #tabs{
         flex-direction: row;
         justify-content: space-between;
-    }
-    a:hover{
+        a{
+            padding: 1rem 4rem;
+        }
+        a:hover{
             background-color: $linkColor;
         }
+    }
+    
     a{
-        padding: 1rem 4rem;
+        padding: 0rem 4rem;
         margin: 1rem 0 0 0;
         cursor: pointer;
     }
