@@ -1,11 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-$secondaryColor: #2A324B;
-$linkColor: #58699D;
-$white: #ffffff;
-$black: #000000;
 $font: "Montserrat", serif;
 $BGColor: #E1E5EE;
-$font: "Montserrat", serif;
 
 #root{
     text-align: left;
@@ -19,18 +14,4 @@ body{
     flex-direction: column;
     background-color: $BGColor;
     font-family: $font;
-    /*main{
-        background-color: $white;
-        padding: 4rem;
-        h3{
-            color: $secondaryColor;
-            margin: 0;
-            font-size: 1.7em;
-        }
-        article{
-            a{
-                color: $linkColor;
-            }
-        }
-    }*/
 }

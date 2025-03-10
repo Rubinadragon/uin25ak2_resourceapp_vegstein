@@ -1,7 +1,7 @@
 import "../assets/styles/layout.scss"
 import Nav from "./Nav";
 
-export default function Layout({children}){
+export default function Layout({children }){
     return(
         <>
             <header>
