@@ -10,7 +10,7 @@ export default function Nav({}){
    //Studentassistent foreslo å bytte ut Link med NavLink for da fungerte active-klassen på scss uten ekstra kode.
     return(
         <nav>
-            <ul id="tabs">
+            <ul id="tabs">{/*Under er et forsøk på å dynamisk generere tabs, men jeg har ikke klart å finne en metode å filtrere ut.*/}
                 {/*resources.map((resource, index) => 
                     {return (<li key={index}>
                         <NavLink to={`/${slug}`}>{resource.category}</NavLink>
