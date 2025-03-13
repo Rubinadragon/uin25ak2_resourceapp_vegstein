@@ -1,8 +1,5 @@
 import "../assets/styles/nav.scss"
 import { NavLink, useParams } from "react-router";
-//import {resources} from '../assets/ressurser'
-//import Resources from "./resources";
-import { useState } from "react";
 
 export default function Nav({}){
     const {slug} = useParams()

@@ -1,5 +1,3 @@
-//import { useParams } from 'react-router'
-//import PageTitle from './PageTitle'
 import "../assets/styles/resourcePage.scss"
 
 export default function Resources({resources}){

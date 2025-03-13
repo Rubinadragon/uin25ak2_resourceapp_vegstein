@@ -5,7 +5,6 @@ import PageTitle from "./PageTitle";
 import Resources from "./resources";
 
 export default function ResourcePage({resources, category}){
-    //const {slug} = useParams()
     //Basert på kode fra legodudes-forelesning
     const filterResources = resources.filter((resource) => resource.category === category)
     
